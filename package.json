@@ -1,0 +1,14 @@
+{
+  "name": "babel-flow",
+  "private": true,
+  "scripts": {
+    "build": "babel ./src --out-dir=./dist",
+    "flow": "flow check src/ || true"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-es2016-node5": "^1.1.2",
+    "flow-bin": "^0.36.0"
+  }
+}
